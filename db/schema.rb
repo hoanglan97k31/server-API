@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_03_11_104024) do
+ActiveRecord::Schema.define(version: 2019_03_12_015223) do
 
   create_table "products", force: :cascade do |t|
     t.string "tittle"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 2019_03_11_104024) do
     t.boolean "published"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "image_url"
   end
 
 end
